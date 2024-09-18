@@ -26,9 +26,10 @@ namespace HospitalApi.Services
             await patientRepository.AddAsync(patient);
         }
 
-        public async Task UpdatePatientAsync(PatientEditDto patientDto)
+        public async Task UpdatePatientAsync(int id, PatientEditDto patientDto)
         {
-            var patient = mapper.Map<Patient>(patientDto);
+            var patient = await patientRepository.GetByIdAsync(id);
+            mapper.Map(patientDto, patient);
             await patientRepository.UpdateAsync(patient);
         }
 
