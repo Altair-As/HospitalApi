@@ -6,8 +6,8 @@ namespace HospitalApi.Services
     {
         Task<IEnumerable<PatientDto>> GetPatientsAsync();
         Task<PatientEditDto> GetPatientByIdAsync(int id);
-        Task AddPatientAsync(PatientEditDto patient);
-        Task UpdatePatientAsync(PatientEditDto patient);
+        Task AddPatientAsync(PatientEditDto patientDto);
+        Task UpdatePatientAsync(PatientEditDto patientDto);
         Task DeletePatientAsync(int id);
     }
 }
