@@ -12,6 +12,6 @@ namespace HospitalApi.DTOs
         public DateTime BirthDate { get; set; }
         public string Gender { get; set; }
 
-        public string DistrictName { get; set; }
+        public string DistrictNumber { get; set; }
     }
 }
