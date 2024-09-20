@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApi", "HospitalApi\HospitalApi.csproj", "{CDA4EB64-1033-4783-B1A7-A1FF4B7A661F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HospitalApi", "HospitalApi\HospitalApi.csproj", "{CDA4EB64-1033-4783-B1A7-A1FF4B7A661F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApi.Tests", "HospitalApi.Tests\HospitalApi.Tests.csproj", "{DC3F80E1-2D53-4AD2-9874-1ACFFE4981B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CDA4EB64-1033-4783-B1A7-A1FF4B7A661F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA4EB64-1033-4783-B1A7-A1FF4B7A661F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA4EB64-1033-4783-B1A7-A1FF4B7A661F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3F80E1-2D53-4AD2-9874-1ACFFE4981B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3F80E1-2D53-4AD2-9874-1ACFFE4981B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3F80E1-2D53-4AD2-9874-1ACFFE4981B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3F80E1-2D53-4AD2-9874-1ACFFE4981B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
